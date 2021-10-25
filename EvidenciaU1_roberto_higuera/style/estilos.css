@@ -1,0 +1,425 @@
+
+body{
+    background-color:  #002f47; 
+    
+}
+
+.blog{
+    max-width: 1000px;
+    background-color: #00a6e7;
+    margin: 0 auto;
+    display: grid;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    width: 20%;
+    padding: 30px;
+    border-radius: 150px;
+}
+
+header .headerelements{
+    max-width: 700px;
+    padding-left: 20px;
+    display: block;
+}
+
+h1{
+    border-bottom: 2px solid black;
+}
+
+header h2{
+    padding-top: 0px;
+    font-size: 25px;
+    color: black;
+}
+
+header  p{
+    font-size: 22px;
+    color: black;
+}
+
+header .headerelements img{
+    width: 5%;
+}
+
+
+header .headerelements2{
+    max-width: 700px;
+    padding-left: 0px;
+    display: grid;
+}
+
+header .headerelements2 img{
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+
+header .headerelements2_1{
+    max-width: 700px;
+    padding-left: 0px;
+    display: flex;
+}
+
+header .headerelements2_2{
+    max-width: 700px;
+    padding-left: 0px;
+    display: flex;
+}
+
+
+/* Esta parte corresponde a la navegación */
+
+.contenido{
+    max-width: 1000px;
+    background-color: white;
+    display: grid;
+}
+
+.contenido .contenido2{
+    display: flex;
+}
+
+section{
+    margin-left: 30px;
+    max-width: 600px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+section h2, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+section h2{
+    border-bottom: 2px solid #002f47;
+    padding-right: 0px;
+}
+
+section p{
+    padding-right: 50px;
+}
+
+.contenido .contenido2 section  img{
+    width: 70%;
+    padding-left: 50px;
+}
+
+aside{
+    max-width: 300px;
+    padding-left: 50px;
+}
+
+aside ul{
+    padding-left: 15px;
+}
+
+aside ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #26c2ff;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover{
+    background-color:#26c2ff;
+}
+
+
+/* Front End */
+
+.responsive{
+    display:grid;
+}
+
+.contenido section ul li{
+    margin-bottom: 10px;
+    padding-right: 35px;
+}
+
+#frontimg{
+    width: 90%;
+    padding-left: 20px;
+}
+
+.contenido section img{
+    width: 30%;
+    padding-left:0px;
+    padding-right: 10px;
+}
+
+#backendimg{
+    width: 90%;
+    padding-left: 10px;
+}
+
+#backendimgs{
+    width: 90%;
+}
+
+#stackimg{
+    width: 90%;
+    padding-left: 10px;
+}
+
+
+/*Footer de la página */
+
+footer{
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+#footertitle{
+    border-bottom: none;
+    padding-left: 30px;
+}
+
+footer img{
+    width: 5%;
+    padding-left: 30px;
+
+}
+
+
+
+@media(max-width: 375px) {
+    body{
+        background-color:  #002f47; 
+    }
+    
+    .blog{
+        max-width: 375px;
+        background-color: #00a6e7;
+        margin: 0 auto;
+        display: grid;
+    }
+    
+    header{
+        display: flex;
+        max-width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #mifoto{
+        border-radius: 150px;
+    }
+    
+    header img{
+        width: 20%;
+        padding: 30px;   
+        border-radius: 0px;
+    }
+    
+    header .headerelements{
+        max-width: 300px;
+        padding-left: 20px;
+        margin-right: 20px;
+        display: block;
+    }
+    
+    h1{
+        border-bottom: 2px solid black;
+        font-size: 20px;
+    }
+    
+    header h2{
+        padding-top: 0px;
+        font-size: 15px;
+        color: black;
+    }
+    
+    header  p{
+        font-size: 10px;
+        color: black;
+        padding-right: 30px;
+    }
+    
+    header .headerelements img{
+        width: 20%;
+    }
+    
+    
+    header .headerelements2{
+        max-width: 300px;
+        padding-left: 0px;
+        display: grid;
+    }
+    
+    header .headerelements2 img{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        padding-right: 10px;
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+    
+    
+    header .headerelements2_1{
+        max-width: 300px;
+        padding-left: 0px;
+        display: flex;
+    }
+    
+    header .headerelements2_2{
+        max-width: 300px;
+        padding-left: 0px;
+        display: flex;
+    }
+    
+    
+    /* Esta parte corresponde a la navegación */
+    
+    .contenido{
+        max-width: 360px;
+        background-color: white;
+        display: grid;
+    }
+    
+    .contenido .contenido2{
+        display: flex;
+    }
+    
+    section{
+        margin-left: 10px;
+        max-width: 260px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    
+    section h2, p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    
+    section h2{
+        border-bottom: 2px solid #002f47;
+        padding-right: 0px;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    section p{
+        font-size: 10px;
+        text-align: justify;
+        padding-right: 0px;
+    }
+    
+    .contenido .contenido2 section  img{
+        width: 70%;
+        padding-left: 20px;
+    }
+    
+    aside{
+        max-width: 100px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    aside h2{
+        font-size: 15px;
+    }
+    
+    aside ul{
+        padding-left: 15px;
+    }
+    
+    aside ul li{
+        margin-bottom: 10px;
+        font-size: 8px;
+        border-bottom: 2px solid #26c2ff;
+    }
+    
+    aside a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    aside a:hover{
+        background-color:#26c2ff;
+    }
+    
+    
+    /* Front End */
+
+    .responsive{
+        max-width: 360px;
+    }
+
+    .responsive section{
+        max-width: 320px;
+        padding-left: 8px;
+    }
+
+    .responsive section h2{
+        padding-right: 30px;
+    }
+
+    .responsive section h3{
+        font-size: 15px;
+    }
+    
+    .contenido section ul li{
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding-right: 35px;
+    }
+    
+    #frontimg{
+        width: 90%;
+        padding-left: 10px;
+    }
+    
+    .contenido section img{
+        width: 25%;
+        padding-left:0px;
+        padding-right: 10px;
+    }
+    
+    #backendimg{
+        width: 90%;
+        padding-left: 10px;
+    }
+    
+    #backendimgs{
+        width: 90%;
+    }
+    
+    #stackimg{
+        width: 90%;
+        padding-left: 10px;
+    }
+    
+    
+    /*Footer de la página */
+    
+    footer{
+        background-color: gray;
+        padding-bottom: 20px;
+    }
+    
+    #footertitle{
+        border-bottom: none;
+        padding-left: 30px;
+    }
+    
+    footer img{
+        width: 5%;
+        padding-left: 30px;
+    
+    }
+}

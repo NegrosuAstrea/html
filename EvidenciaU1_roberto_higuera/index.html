@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class = "blog">
+        <header>
+            <img id="mifoto" src="img/Foto.jpeg" alt="Mi foto">
+
+            <div class="headerelements">
+                <h1>Roberto Eduardo Higuera Sánchez</h1>
+                <p>Soy alumno de la Universidad Politécnica de Vicotira, en la carrera
+                    Ingeniería en Tecnologías de la Información, fanático del área de Networking
+                </p>
+
+                <div class = "headerelements2">
+                    <div class="headerelements2_1">
+                        <img src="img/icons/correo.png" alt="email">
+                        <h2>1930346@upv.edu.mx</h2>
+                    </div>
+                    <div class="headerelements2_2">
+                        <img src="img/icons/celular.png" alt="cellphone">
+                        <h2>8342665073</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="contenido">
+
+            <div class="contenido2">
+                <section>
+                    <article>
+                        <h2 id="1">¿Qué es la arquitectura Cliente-Servidor?</h2>
+                        <p>
+                            En simples palabras, son dos computadoras: El cliente pide la información, que son las peticiones y el servidor la devuelve, siempre y cuando exista el permiso.
+                            <br><br>
+                            Cliente: Programa ejecutable que participa activamente en el establecimiento de las conexiones. Envía una petición al servidor y se queda esperando por una respuesta. Su tiempo de vida es finito una vez que son servidas sus solicitudes, termina el trabajo.
+                            <br><br>
+                            Servidor: Es un programa que ofrece un servicio que se puede obtener en una red. Acepta la petición desde la red, realiza el servicio y devuelve el resultado al solicitante.
+                        </p>
+                        <img src="img/arquitectura/arq_cliente_servidor.jpg" alt="Arquitectura">
+                        <h2>La llegada de HTML 5</h2>
+                        <img src="img/arquitectura/html5.png" alt="">
+                        <p>
+                            Alrededor de 2008 y 2010, se empezó la división entre backend y frontend debido a la llegada de HTML5, ya que permitió la llegada de más navegadores y consigo la tecnología web creció, además de etiquetas también llegaron APIs dando potencia al Cliente y servidor. El cliente antes de esto solo se podía visualizar las páginas web, no era posible que el cliente pudiese interactuar con ella.
+                        </p>
+                    </article>
+                </section>
+    
+                <aside>
+                    <nav>
+                        <h2>Navegación: </h2>
+                        <ul>
+                            <li> <a href="#1" rel="noopener noreferrer"> ¿Qué es la arquitectura cliente servidor?</a> </li>
+                            <li><a href="#2"> ¿Qué es el Front-End? </a></li>
+                            <li><a href="#3">¿Qué es el Back-End?</a></li>
+                            <li><a href="#4">¿El desarrollador Full-Stack?</a></li>
+                            <li><a href="#5">Videos de práctica</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+            
+
+            <div class="responsive">
+
+                <section>
+                    <article>
+                        <h2 id="2">¿Qué es el Front-End?</h2>
+                        <p>
+                            El frontend es la parte del desarrollo web que se dedica a la parte frontal de un sitio web, en pocas palabras del diseño de un sitio web, desde la estructura del sitio hasta los estilos como colores, fondos, tamaños hasta llegar a las animaciones y efectos.
+                            <br><br>
+                            Es esa parte de la página con la que interaccionan los usuarios de la misma, es todo el código que se ejecuta en el navegador de un usuario, al que se le denomina una aplicación cliente, es decir, todo lo que el visitante ve y experimenta de forma directa.
+                        </p>
+    
+                        <img id="frontimg" src="img/frontend/frontend_spectrum.png" alt="Front-end">
+    
+                        <h3>Roles del frontend y su función.</h3>
+                        <ul>
+                            <li> <b> Diseñador UI: </b> Se encarga de diseñar la interfaz en un programa de diseño.</li>
+                            <li> <b> Maquetador: </b> Se encarga de llevar el diseño a HTML y a css.</li>
+                            <li> <b> FrontEnd: </b>Agrega toda la lógica y agrega datos reales desde una API.</li>
+                        </ul>
+    
+                        <h3>Principales lenguajes y frameworks usados en el Front-end</h3>
+                        <p>Dentro de los lenguajes  y frameworks más comunes tenemos:</p>
+                        <ul>
+                            <b>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>Vue.js</li>
+                            </b>
+                        </ul>
+                        <img src="img/frontend/frameworks/reactjs.png" alt="reactjs">
+                        <img src="img/frontend/frameworks/angular.png" alt="angular">
+                        <img src="img/frontend/frameworks/Vuejs.png" alt="Vuejs">
+                    </article>
+                </section>
+    
+                <section>
+                    <article>
+                        <h2 id="3">¿Qué es el Back-End?</h2>
+                        <img id="backendimg" src="img/backend/backend.png" alt="backend">
+                        <p>
+                            Mientras que el frontend es la capa de programación ejecutada en el navegador del usuario, el backend procesa la información que alimentará el frontend de datos.
+                            <br><br>
+                            Es la capa de acceso a los datos, ya sea de un software o de un dispositivo en general, es la lógica tecnológica que hace que una página web funcione, lo que queda oculto a ojos del visitante.
+                            <br><br>
+                            El backend de una solución, determina qué tan bien se ejecutará la aplicación y qué experiencia, positiva o negativa, obtendrá el usuario de su uso.
+                        </p>
+    
+                        <h3>Roles del backend y sus funciones:</h3>
+                        <ul>
+                            <li><b>Backend:</b> Se encarga de la lógica del negocio del lado del servidor, es decir las soluciones que necesita la aplicación y crea las APIs para que el frontend pueda consumirlas.</li>
+                            <li><b>Administrador de base de datos:</b> Diseña, implementa, mejora y mantiene el sistema de base de datos.</li>
+                            <li><b>Cloud computing:</b> Gestiona la instalación, soporte y mantiene el servidor en donde se aloja la web o app.</li>
+                        </ul>
+    
+                        <h3>Principales lenguajes y frameworks usados en el Back-end</h2>
+                        <p>Dentro de los lenguajes  y frameworks más comunes tenemos:</p>
+                        <ul>
+                            <b>
+                                <li>Django</li>
+                                <li>Javascript</li>
+                                <li>C#</li>
+                                <li>ASP.NET</li>
+                                <li>Java</li>
+                                <li>Nodejs</li>
+                                <li>PhP</li>
+                                <li>Spring</li>
+                                <li>Python</li>
+                                <li>Rails</li>
+                            </b>
+                        </ul>
+                        <img id="backendimgs" src="img/backend/lenguajes/lenguajes_backend.png" alt="backend">
+                    </article>
+                </section>
+    
+    
+                <section>
+                    <article>
+                        <h2 id="4">¿El desarrollador Full-Stack?</h2>
+                        <img id="stackimg" src="img/stack/fullstack.jpg" alt="stack">
+    
+                        <p>
+                            Este perfil es el de un desarrollador, con conocimientos tanto de front-end como de back-end que se encarga de coordinar las acciones de desarrollo en ambas partes. Estos expertos se centran en desarrollar la estructura y la arquitectura subyacente.
+                        </p>
+                    </article>
+                </section>
+    
+                <section>
+                    <article>
+                        <h2 id="5">Videos de práctica</h2>
+                        <iframe src="https://drive.google.com/file/d/1V2cxRYORtS6dHwipnasL0pJpZVbvKSwp/view?usp=sharing" allow="autoplay"></iframe>
+                        <H3>Si el video no puede reproducirse, accede al siguiente enlace</H3>
+                        <a href="https://drive.google.com/file/d/1V2cxRYORtS6dHwipnasL0pJpZVbvKSwp/view?usp=sharing" target="_blank"><p>Here</p></a>
+                    </article>
+                </section>
+            </div>
+
+            <footer>
+                <h1 id="footertitle">Redes Sociales </h2>
+                <a href="https://www.facebook.com/roberto.higuerasanchez" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a>
+                <a href="https://instagram.com/roberto_higuera01?utm_medium=copy_link" target="_blank"><img src="img/icons/insta.png" alt="Instagram"></a>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
