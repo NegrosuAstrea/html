@@ -1,0 +1,48 @@
+
+
+body{
+    background-color: lightcyan;
+    margin:0px;
+    padding: 0px;
+}
+
+main{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#div1{
+    display: flex;
+}
+
+#div2{
+    display: none;
+}
+
+#div3{
+    display: none;
+}
+
+div img{
+    width: 70%;
+ 
+}
+
+
+#left{
+    margin-left: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity: 50%;
+    
+}
+
+#right{
+    margin-left: -397px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity: 50%;
+    
+}
