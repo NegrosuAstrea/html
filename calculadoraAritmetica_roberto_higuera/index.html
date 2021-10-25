@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Calculadora Aritmética</title>
+</head>
+<body>
+    
+    <main>
+
+        <div id="panel">
+            <input type="text" name="expresiones" id="expresion">
+
+            <div id="turn">
+                <input type="radio" name="turn" id="turn_on" onclick="turnOn()">
+                <label for="turn">ON</label>
+                <input type="radio" name="turn" id="turn_off" onclick="turnOff()" checked ="true">
+                <label for="turn">OFF</label>
+            </div>
+
+            <div id="botones">
+                <input class = "teclas" type="button" value="7" >
+                <input class = "teclas" type="button" value="8" >
+                <input class = "teclas" type="button" value="9" >
+                <input class = "teclas" type="button" value="+" >
+                <input class = "teclas" type="button" value="6" >
+                <input class = "teclas" type="button" value="5" >
+                <input class = "teclas" type="button" value="4" >
+                <input class = "teclas" type="button" value="-" >
+                <input class = "teclas" type="button" value="3" >
+                <input class = "teclas" type="button" value="2" >
+                <input class = "teclas" type="button" value="1" >
+                <input class = "teclas" type="button" value="x" >
+                <input class = "teclas" type="button" value="CLR">
+                <input class = "teclas" type="button" value="0" >
+                <input class = "teclas" type="button" value="=">
+                <input class = "teclas" type="button" value="/" >
+            </div>
+
+        </div>
+    </main>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
