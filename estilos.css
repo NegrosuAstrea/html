@@ -39,7 +39,15 @@ header h1{
     
 }
 
+section article ul li a{
+    color: #900C3F ;
+    font-size: 20px;
+    text-decoration: none;
+}
 
+section article ul li a:hover{
+    background-color: #66d3ee;
+}
 
 section{
     margin-bottom: 10px;
