@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(241, 219, 185);    
+}
+
+fieldset{
+    width:50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.fieldset2{
+    width:50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 2%;
+    padding-left: 5px;
+}
+
+.fieldset2 div img{
+    padding-left: 50px;
+}
+
+.fieldset2 label{
+    padding-left: 5px;
+}
+
+.fieldset2 .div2 .div3{
+    padding-left: 230px;
+}
+
+.fieldset2 .div2{
+    display: flex;
+    padding-left: 50px;
+    
+}
+
+
+
+
+
+fieldset .div4 label{
+    padding-left: 30px;
+}
+
+fieldset .div4{
+    padding-left: 50px;
+}
+
+fieldset .divbase4, .div4-1, .div4, .div5, .div6, .div7{
+    display:flex;
+}
+
+fieldset .divbase4 .div4{
+    padding-left:35px;
+}
+
+fieldset .divbase4 .div4{
+    padding-left:35px;
+}
+
+.div5{
+    padding-left:16px;
+}
+
+.div6{
+    padding-left:19px;
+}
+
+.div7{
+    padding-left:19px;
+}
+
+.div8{
+    padding-left:19px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+
+.orangeF{
+    width:50%;
+    margin: auto;
+    background-color: orange;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputTxt{
+    width: 40%;
+}
+
+select{
+    width:20%;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.tab1{
+    tab-size: 14;
+}
+
+.submit{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    margin: auto;
+}
+
+.submit:hover{
+    background-color:darkcyan;
+}
+footer{
+    width:50%;
+    background-color: rgb(241, 219, 185);
+    text-align: left;
+    margin: 0px auto;
+}
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!--Titulo de la encuesta-->
+    <fieldset class ="orangeF"></fieldset>
+    <fieldset>
+        <h1>Survey For Product</h1>
+        <p>Tu correo se registrará cuando envíes este formulario</p>
+    </fieldset>
+
+    <br>
+
+    <!--Definición del formulario-->
+
+    <form action="index.html" method="POST">
+        <!--Captura del nombre-->
+        <fieldset>
+            <label for="nombre">Name: * </label><br><br>
+            <input class="inputTxt" type="text" name="nombre" id="nombre" required minlength="5">
+        </fieldset>
+
+        <br>
+
+        <!--Preferencia de carros-->
+        <fieldset class = "fieldset2">
+
+            <label for="cars">What car do you prefer: * </label><br><br>
+            
+            <div>
+                <img src="img/CarroBlanco.jpg" alt="MiniCarro"> 
+                <img src="img/CarroNegro.jpg" alt="CarroNegro"> <br>
+    
+            </div>
+
+            <div class = "div2">
+                <input required type="radio" name="cars" id="cars" value="MiniCar">
+                <label for="cars">MiniCar </label>
+    
+                <!--LITERALMENTE SON ESPACIOS XD entre los radio buttons-->
+    
+                <div class="div3">
+                    <input type="radio" name="cars" id="cars" value="CarroNegro">
+                    <label for="cars">Opción 2</label>
+                </div>
+
+            </div>
+           
+            <br>
+            <div>
+                <img src="img/CarroAzul.jpg" alt="MiniCarro"> <br>
+            </div>
+            
+            <div class="div2">
+                <input type="radio" name="cars" id="cars" value="CarroAzul">
+                <label for="cars">Opción 3</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <!--Esta parte corresponde a la selección de dispositivos en casa con checkbox
+            El Fieldset que está seguido de este comentario es sólo para darle el color naranja
+            arriba como el del trabajo original-->
+        <fieldset class="orangeF">
+            <p>Selección sin título</p>
+        </fieldset>
+
+        <fieldset>
+            <label for="devices">Which type of devices do you have at home: </label>
+            <br><br>
+
+            <input type="checkbox" name="devices" id="devices" value="1">     
+            <label for="devices">Tablet </label><br><br>
+
+            <input type="checkbox" name="devices" id="devices" value="2">     
+            <label for="devices">Smartphone </label><br><br>
+
+            <input type="checkbox" name="devices" id="devices" value="3">     
+            <label for="devices">Pc </label><br><br>
+
+            <input type="checkbox" name="devices" id="devices" value="4">     
+            <label for="devices">Laptop </label><br><br>
+
+            <input type="checkbox" name="devices" id="devices" value="5">     
+            <label for="devices">Otro: </label>
+            <input type="text" name="devices" id="otherdevices">
+
+        </fieldset>
+
+        <br>
+
+        <!--Elección de carrera-->
+        <fieldset>
+            <label for="career">What's your career?</label>
+            <br><br>
+            <select name="career" id="career" required>
+                <option value="0">Elige</option>
+                <option value="1">ITI</option>
+                <option value="2">LAyGE</option>
+                <option value="3">ITM</option>
+                <option value="4">ISA</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!--Sección de comentarios-->
+        <fieldset>
+            <label for="comments">Write your comments:</label>
+            <br><br>
+            <textarea name="comments" id="comments" cols="80" rows="5" placeholder="Comments"></textarea>
+        </fieldset>
+
+        <br>
+
+        <!--Sección de nivel de inglés. Nota tiene demasiados espacios XD-->
+        <fieldset>
+            <label for="level">What's your level of english?</label>
+            <br><br>
+            <div class="main4 clearfix">
+                <div class="div4">
+                    <label for="level">1</label>
+    
+                    <label for="level">2</label> 
+        
+                    <label for="level">3</label> 
+        
+                    <label for="level">4</label>
+                
+                    <label for="level">5</label> 
+                    
+                </div>
+                <div class="divbase4">
+                    <div class="div4-1">
+                        <label for="level">Basic</label>
+                    </div>
+                    
+                                 
+                    <div class ="div4">
+                        
+                        
+                        <input type="radio" name="level" id="level"> 
+                        <div class="div5">
+                            <input type="radio" name="level" id="level"> 
+                        
+                        </div>
+
+                        <div class="div6">
+                            <input type="radio" name="level" id="level"> 
+                        </div>
+
+                        <div class="div7">
+                            <input type="radio" name="level" id="level"> 
+                        </div>
+
+                        <div class="div8">
+                            <input type="radio" name="level" id="level">
+                            <label for="level">Advanced</label>
+                        </div>
+ 
+                    </div>
+            </div> 
+                
+                
+            </div>
+            
+        </fieldset>
+
+        <br>
+
+        <!--Sección de opinión. DEMASIADOS ESPACIOSX2-->
+        <fieldset>
+            <label for="opinions">Give us your opinion: </label>
+            <br><br>
+
+                &emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <label for="opinions">Bad</label> &emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            
+            <label for="opinions">Regular</label> &emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            
+            <label for="opinions">Good</label> &emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            
+            <label for="opinions">Excellent</label> &emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            
+            <br><br>
+
+            <label for="opinions">Room Service</label>
+                &emsp14;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions" id="opinions"> &emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions" id="opinions"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions" id="opinions"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions" id="opinions">
+
+
+
+            <br><br>
+            <label for="opinions2"> Reservation <br> Service</label>
+                &emsp14;&emsp14;&emsp13;&emsp14;&emsp14;&emsp14;&emsp13;&emsp14;&emsp14;&emsp14;&emsp13;&emsp14;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions2" id="opinions2"> &emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions2" id="opinions2"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions2" id="opinions2"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions2" id="opinions2">
+
+
+            <br><br>
+            <label for="opinions3">Restaurant</label>
+                &emsp13;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions3" id="opinions3"> &emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions3" id="opinions3"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions3" id="opinions3"> &emsp13;&emsp13;&emsp14;&emsp13;&emsp13;&emsp14;&emsp14;&emsp13;&emsp13;&emsp13;&emsp13;&emsp14;&emsp14;
+            <input type="radio" name="opinions3" id="opinions3">
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <label for="date">Date of Birth:</label><br><br>
+            <p class="p1">Fecha:</p>
+            <input type="date" name="date" id="date" required>
+            <br><br>
+        </fieldset>
+
+        <br>
+
+        <footer>
+            <input class="submit" type="submit" value="Enviar">
+        </footer>
+        
+
+    </form>
+    
+</body>
+</html>
