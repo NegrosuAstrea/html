@@ -1,0 +1,36 @@
+
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-color:lightgray;
+}
+
+main{
+    background-color:lightblue;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+
+main p{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main h1{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.parameters{
+    display: grid;
+    padding-top: 20px;
+
+}
+
+#img{
+    padding-left: 20px;
+}

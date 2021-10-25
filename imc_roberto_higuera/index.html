@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>IMC</title>
+</head>
+<body>
+    <main>
+
+        <h1>Calculadora de Indice de Masa Corporal (IMC)</h1>
+
+        <p>Para conocer el índice de masa corporal, sólo ingrese los datos de su peso y la altura en los campos correspondientes</p>
+        
+        <div class="parameters">
+            <label>Peso en kg: </label>
+            <input type="text" name="" id="peso">
+
+            <label>Altura en m: </label>
+            <input type="text" name="" id="altura">
+
+            <input type="button" onclick="imc();" name="" value="calcular">
+        </div>    
+        <h1 id="resultado">Resultado: </h1>
+        <img id= "img" src="" alt="">
+    </main>
+
+
+    <script type="text/javascript">
+        function imc() {
+            let peso = document.getElementById("peso");
+            let altura = document.getElementById("altura");
+            let resultado = document.getElementById("resultado");
+            let imagen = document.getElementById("img")
+
+            let imc = peso.value / Math.pow(altura.value, 2);
+
+            let grupo = "";
+            if (imc < 18.5){
+                grupo = "Peso insuficiente";
+                imagen.src ="img/bajo.jpg";
+                
+            }else if (imc < 24.9){
+                grupo = "Peso normal";
+                imagen.src ="img/normal.jpg";
+            }else if (imc < 26.9){
+                imagen.src ="img/sobre.jpg";
+                grupo = "Sobrepeso grado I";
+            }else if (imc < 29.9){
+                grupo = "Sobrepeso grado II";
+                imagen.src ="img/sobre.jpg";
+            }else if (imc < 34.9){
+                grupo = "Obesidad tipo I";
+            }else if (imc < 39.9){
+                grupo = "Obesidad tipo II";
+                imagen.src ="img/obesidad.jpg";
+            }else if (imc < 49.9){
+                grupo = "Obesidad tipo III";
+                imagen.src ="img/cronica.jpg";
+            }else{
+                grupo = "Obesidad tipo IV";
+                imagen.src ="img/cronica.jpg";
+            }
+            resultado.innerText = `Su IMC es : ${Math.round((imc + Number.EPSILON) * 100) / 100}\nUsted se encuentra en el grupo : ${grupo}`;
+        }
+    </script>
+</body>
+</html>
