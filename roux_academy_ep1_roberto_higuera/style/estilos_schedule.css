@@ -1,0 +1,634 @@
+
+.home{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+body{
+    background: url("../img/background_buildings.png");
+    background-size: cover;
+    background-size: 36rem;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+/*Todo los estilos para el header HOME funciona en todas las pag*/
+header{
+    max-width:900px;
+    margin: 0 auto;
+    margin-top:0px;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    margin-bottom:0px;
+}
+
+header img{
+    padding: 20px;
+    padding-left: 20px;
+    
+}
+
+h1{
+    padding-top:30px;
+    font-size: 80%;
+    color:white;
+    
+}
+
+header aside{
+    width: 400px;
+    padding-left: 100px;
+}
+
+header aside h1{
+    color: white;
+    padding-left: 50px;
+    padding-top:0px;
+    font-size: 120%;
+}
+
+header aside p{
+    color:white;
+    padding-left: 50px;
+    padding-top:0px;
+    font-size: 70%;
+}
+
+
+/*Comienza la parte de NAVIGATION */
+
+nav{
+    max-width:900px;
+    display: grid;
+    margin: 0 auto;
+    margin-top:0px;
+    margin-bottom:0px;
+
+    padding: 20px;
+    padding-bottom:0px;
+    padding-top:0px;
+    
+    background-image: radial-gradient(circle at 50% 120.71%, #ffffb4 0, #fff9a2 12.5%, #ffec90 25%, #ffde7e 37.5%, #ffce6c 50%, #febe5b 62.5%, #feae4e 75%, #ff9f45 87.5%, #ff8f3f 100%);
+    
+}
+
+nav ul{
+    padding-left:0px;
+}
+
+nav ul li{
+    list-style: none; 
+    
+}
+
+nav ul li a{
+    float: left; 
+    margin-right: 50px;
+    text-decoration: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+nav ul li a:hover{
+    background-color:none;
+    color: white;
+}
+
+
+/*Fondo de la página superior, no está en clase
+*/
+.art{
+    width:940px;    
+    padding-bottom:0px;
+    margin: 0 auto;
+    display:grid;
+}
+
+/*EMPIEZAN LAS SECTION*/
+.izq{
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    display:flex;
+}
+
+.contenido{
+    max-width: 550px;
+    background-color: white;
+}
+
+
+section{
+    padding-left:50px;
+    max-width: 550px;
+}
+
+section h2{
+    padding-left: 0px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /*border-bottom: 2px solid #ED6A5A;
+    */
+}
+
+section .artists h2{
+    padding-left: 0px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    /*border-bottom: 2px solid #ED6A5A;
+    */
+}
+
+section article h3{
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;  
+}
+
+section article h3{
+    margin-top: 5px;
+    color: black;
+    font-size: 15px;  
+    padding-left:10px;
+}
+
+
+section p{
+    margin-top: 5px;
+    text-align: justify;
+    border-bottom: 2px solid black;
+}
+
+section article .artists img{
+    padding-left:15px;
+    width:30%;
+    border-radius: 10px;
+    display: flex;
+    float:left;
+    padding-right: 10px;
+}
+
+section article .artists p{
+    border-bottom: none;
+}
+
+section article .artists #borderU{
+    border-bottom: 2px solid black;
+}
+
+
+
+section article a{
+    padding-left:180px;
+    color:gray;
+    font-size:12px;
+}
+
+section article #hotelContempo{
+    float:left;
+    margin-right: 10px;
+    width:120px;
+    height:230px;
+}
+
+
+/*aquí el padding top me acomoda que no se ponga 
+sobre la imagen xd*/
+.lateral{
+    max-width:300px;
+    padding-left: 50px;  
+    padding-top: 0px;
+
+}
+
+.lateral aside{
+    max-width: 300px;
+    padding-right:0px;
+    padding-bottom:0px;
+    margin-bottom: 30px;
+}
+
+.lateral aside h2{
+    padding-left: 0px;
+    color: #E55542;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom:0px;
+}
+
+.lateral aside p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+aside img{
+    width: 100%;
+}
+
+.lateral aside a{
+    padding-left:180px;
+    color:gray;
+    font-size:12px;
+}
+
+.lateral aside h3{
+    padding-left: 0px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom:10px;
+}
+
+.lateral aside h4{
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;  
+    margin-bottom:0px;
+}
+
+.lateral aside .paints img{
+    max-width: 300px;
+    padding-left:15px;
+    width:25%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*Aquí empieza el FOOTER de la página */
+
+footer{
+    max-width:900px;
+    margin: 0 auto;
+    margin-top:0px;
+    padding: 20px;
+    display: flex;
+    padding-bottom:80px;
+    background-color: #212120;
+}
+
+footer img{
+    padding: 20px;
+    padding-left: 20px;
+    width: 80px;
+    height: 50px;
+}
+
+footer #footer_izq{
+    width: 200px;
+    padding-right: 100px;
+}
+
+footer #footer_izq p{
+    padding-top:0px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: white;
+    font-size: 10px;
+}
+
+footer aside{
+    width: 500px;
+}
+
+footer aside a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-top:10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* ---------------------------------- APARTADO PARA LAS MEDIA QUERIES  ----------------------------- */
+/* iPhone X  */
+
+@media (max-width: 375px){
+    .home{
+        max-width: 365px;
+        margin: 0 auto;
+        
+    }
+    
+    body{
+        background: url("../img/background_buildings.png");
+        background-size: cover;
+        background-size: 36rem;
+        background-repeat: repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    
+    
+    /*Todo los estilos para el header HOME funciona en todas las pag*/
+    header{
+        max-width:360px;
+        margin: 0 auto;
+        margin-top:0px;
+        padding: 20px;
+        background-color: black;
+        display: flex;
+        margin-bottom:0px;
+    }
+    
+    header img{
+        padding: 20px;
+        padding-left: 20px;
+        width: 25%;
+        height: 25%;
+    }
+    
+    h1{
+        padding-top:30px;
+        font-size: 60%;
+        color:white;
+        
+    }
+    
+    header aside{
+        width: 200px;
+        padding-left:0px;
+    }
+    
+    header aside h1{
+        color: white;
+        padding-left: 20px;
+        padding-top:0px;
+        font-size: 90%;
+    }
+    
+    header aside p{
+        color:white;
+        padding-left: 20px;
+        padding-top:0px;
+        font-size: 50%;
+    }
+    
+    
+    /*Comienza la parte de NAVIGATION */
+    
+    nav{
+        max-width:360px;
+        display: grid;
+        margin: 0 auto;
+        margin-top:0px;
+        margin-bottom:0px;
+    
+        padding: 30px;
+        padding-bottom:0px;
+        padding-top:0px;
+        
+        background-image: radial-gradient(circle at 50% 120.71%, #ffffb4 0, #fff9a2 12.5%, #ffec90 25%, #ffde7e 37.5%, #ffce6c 50%, #febe5b 62.5%, #feae4e 75%, #ff9f45 87.5%, #ff8f3f 100%);
+        
+    }
+    
+    nav ul{
+        padding-left:0px;
+    }
+    
+    nav ul li{
+        list-style: none; 
+        font-size: 70%;
+        
+    }
+    
+    nav ul li a{
+        float: left; 
+        margin-right: 50px;
+        text-decoration: none; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:black;
+    }
+    
+    nav ul li a:hover{
+        background-color:none;
+        color: white;
+    }
+
+    /*Fondo de la página superior, no está en clase
+    */
+    .art{
+        max-width:360px;    
+        padding-bottom:0px;
+        margin: 0 auto;
+    }
+
+
+    
+    /*EMPIEZAN LAS SECTION*/
+    .izq{
+        max-width: 360px;
+        margin: 0 auto;
+        background-color: white;
+        display:block;
+    }
+
+    .contenido{
+        max-width: 360px;
+        background-color: white;
+        display: grid;
+    }
+
+
+    section{
+        padding-left:30px;
+        max-width: 360px;
+        padding-right: 30px;
+    }
+
+    section h2{
+        padding-left: 0px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        /*border-bottom: 2px solid #ED6A5A;
+        */
+    }
+
+    section .artists h2{
+        padding-left: 0px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        /*border-bottom: 2px solid #ED6A5A;
+        */
+    }
+
+
+    section article h3{
+        margin-top: 5px;
+        color: black;
+        font-size: 15px;  
+        padding-left:10px;
+    }
+
+
+    section p{
+        margin-top: 5px;
+        text-align: justify;
+        border-bottom: 2px solid black;
+    }
+
+    section article .artists img{
+        padding-left:10px;
+        width:30%;
+        border-radius: 10px;
+        display: flex;
+        float:left;
+        padding-right: 10px;
+    }
+
+    section article .artists p{
+        border-bottom: none;
+    }
+
+    section article .artists #borderU{
+        border-bottom: 2px solid black;
+    }
+
+
+
+    section article a{
+        padding-left:180px;
+        color:gray;
+        font-size:12px;
+    }
+
+    section article #hotelContempo{
+        float:left;
+        margin-right: 10px;
+        width:120px;
+        height:230px;
+    }
+
+
+    /*aquí el padding top me acomoda que no se ponga 
+    sobre la imagen xd*/
+    .lateral{
+        max-width:300px;
+        padding-left: 30px;  
+        padding-top: 0px;
+        padding-right:30px;
+        display:grid;
+
+    }
+
+    .lateral aside{
+        max-width: 280px;
+        padding-right:0px;
+        padding-bottom:0px;
+        margin-bottom: 30px;
+    }
+
+    .lateral aside h2{
+        padding-left: 0px;
+        color: #E55542;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-bottom:0px;
+    }
+
+    .lateral aside p{
+        margin-top: 5px;
+        text-align: justify;
+    }
+
+    aside img{
+        width: 80%;
+    }
+
+    .lateral aside a{
+        padding-left:180px;
+        color:gray;
+        font-size:12px;
+    }
+
+    .lateral aside h3{
+        padding-left: 0px;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-bottom:10px;
+    }
+
+    .lateral aside h4{
+        margin-top: 5px;
+        color: gray;
+        font-size: 15px;  
+        margin-bottom:0px;
+    }
+
+    .lateral aside .paints img{
+        max-width: 300px;
+        padding-left:15px;
+        width:25%;
+        border-radius: 10px;
+    }
+
+
+
+
+
+    /*Aquí empieza el FOOTER de la página */
+    
+    footer{
+        max-width:360px;
+        margin: 0 auto;
+        margin-top:0px;
+        padding: 20px;
+        display: flex;
+        padding-bottom:30px;
+        background-color: #212120;
+    }
+    
+    footer img{
+        padding: 20px;
+        padding-left: 20px;
+        width: 50px;
+        height: 30px;
+    }
+    
+    footer #footer_izq{
+        width: 100px;
+        padding-right: 20px;
+    }
+    
+    footer #footer_izq p{
+        padding-top:0px;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        color: white;
+        font-size: 8px;
+    }
+    
+    footer aside{
+        width: 130px;
+    }
+    
+    footer aside a{
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding-top:10px;
+        font-size: 8px;
+    }
+
+
+}
