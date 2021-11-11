@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="/roux_academy/css/style.css">
 <title>Roux Conference: Schedule</title>
 </head>
 <body id="page_schedule">
 <div class="wrapper">
-  <?php
-    require("../layout/header.php");
-  ?>
+<?php
+      include("../layout/header.php")
+    ?>
   <div id="rotator"> <img src="../images/art01.jpg" alt="Artwork from show"> </div>
   <!-- Rotator -->
   <section id="main">
@@ -117,19 +117,15 @@
       </div>
     </article>
     <!-- Featured Artists -->
-    <article id="comingtoevent">
-      <h2 class="highlight">Coming to the event?</h2>
-      <h3>Check out our mobile site</h3>
-      <p>Our mobile site contains schedules, and exhibit/ artist details, accessible simply by scanning QR codes located all around the venue exhibit halls.</p>
-      <p><img src="../images/iphone.png" alt="Mobile phone"></p>
-      <p><a class="link" href="#">Roux Mobile</a></p>
-    </article>
+    <?php
+      include("../layout/coming_to_event.php")
+    ?>
     <!-- Coming to event --> 
   </aside>
   <!-- Sidebar -->
   <?php
-    require("../layout/footer.php");
-  ?>
+      include("../layout/footer.php")
+    ?>
 </div>
 
 </body>

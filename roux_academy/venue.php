@@ -7,11 +7,9 @@
 </head>
 <body id="page_venue">
 <div class="wrapper">
-  
-  <?php
-    require('layout/header.php');
-  ?>
-
+<?php
+      include("layout/header.php")
+    ?>
   <div id="rotator"> <img src="images/art01.jpg" alt="Artwork from show"> </div>
   <!-- Rotator -->
   <section id="main">
@@ -77,14 +75,14 @@
     </article>
     <!-- Featured Artists -->
     <?php
-      require("layout/comingtoevent.php");
+      include("layout/coming_to_event.php")
     ?>
     <!-- Coming to event --> 
   </aside>
   <!-- Sidebar -->
   <?php
-    require("layout/footer.php");
-  ?>
+      include("layout/footer.php")
+    ?>
 </div>
 </body>
 </html>
